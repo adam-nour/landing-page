@@ -24,10 +24,17 @@ body {
     padding-top: 30px;
     padding-left: 200px;
     padding-right: 200px;
-    padding-bottom: 130px;  
+    padding-bottom: 150px;  
 }
 .section-two{
     background-color: #ffffff;
+    padding-top: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 130px;  
+}
+.section-three{
+    background-color: #E5E7EB;
     padding-top: 30px;
     padding-left: 200px;
     padding-right: 200px;
@@ -117,3 +124,13 @@ button {
     justify-content: center;
     text-align: center;
   }
+.section-three-one{
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+.section-three-two{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
