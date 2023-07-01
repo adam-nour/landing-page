@@ -26,20 +26,26 @@ body {
     padding-right: 200px;
     padding-bottom: 130px;  
 }
-.flex-container{
+.section-one-one{
     /* color: white;
     margin-top: 30px;
     margin-left: 100px;
     margin-right: 100px; */
     display: flex;
 }
-.flex-container div {
+.section-one-one div {
     
     flex: 1;
 }
-.flex-container .logo{
+.section-one-one .logo{
     font-weight: 1000;
     flex: 7 1 0%;
+    color: #F9FAF8;
+
+}
+.section-one-one .links{
+    font-size: 18px;
+    color: #E5E7EB;
 
 }
 .section-one-two{
@@ -51,7 +57,7 @@ body {
 }
 h1 {
     font-weight: 1000;
-    font-size: 250%;
+    font-size: 48px;
 }
 button {
     background-color: #3882f6;
@@ -69,4 +75,14 @@ button {
     align-items: center;
     height: 200px;
     text-align: center;
+}
+.section-two-one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
 }
